@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.example.advancedvocabulary.HelloController" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <TextField fx:id="valueField" layoutX="377.0" layoutY="35.0" prefHeight="25.0" prefWidth="200.0"/>
+   <TextField fx:id="keyField" layoutX="18.0" layoutY="35.0" prefHeight="25.0" prefWidth="200.0"/>
+   <ListView fx:id="keyListView" layoutX="18.0" layoutY="100.0" prefHeight="278.0" prefWidth="200.0"/>
+   <ListView fx:id="valueListView" layoutX="377.0" layoutY="100.0" prefHeight="278.0" prefWidth="200.0"/>
+   <Button fx:id="addButton" layoutX="266.0" layoutY="35.0" mnemonicParsing="false" text="Добавить"/>
+   <Button fx:id="editButton" layoutX="252.0" layoutY="100.0" mnemonicParsing="false" text="Редактировать"/>
+   <Button fx:id="deleteButton" layoutX="266.0" layoutY="353.0" mnemonicParsing="false" text="Удалить"/>
+   <Button fx:id="closeButton" layoutX="524.0" layoutY="2.0" mnemonicParsing="false" text="Закрыть"/>
+</AnchorPane>
